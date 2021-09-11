@@ -18,11 +18,16 @@ export default function Home({
       <Subcontainer>
         <Content>
           <Card
-            title="Total dosis suministradas"
-            description="Total de dosis aplicadas hasta hoy"
+            title="Dosis suministradas"
+            description=""
             data={[
-              { nombre: "Primera dosis", total: vacunasPrimeraDosis["total"] },
-              { nombre: "Segunda dosis", total: vacunasSegundaDosis["total"] },
+              { nombre: "Primera Dosis", total: vacunasPrimeraDosis["total"] },
+              { nombre: "Segunda Dosis", total: vacunasSegundaDosis["total"] },
+              {
+                nombre: "Total de Dosis",
+                total:
+                  vacunasPrimeraDosis["total"] + vacunasSegundaDosis["total"],
+              },
             ]}
           />
         </Content>

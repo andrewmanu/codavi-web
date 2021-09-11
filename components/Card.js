@@ -53,7 +53,6 @@ const Description = styled.p`
 
 export default function Card({ title, description, data, column }) {
   var [values] = useState(data);
-  console.log(values);
   return (
     <MainCard>
       <CardHead>
