@@ -33,6 +33,15 @@ export default function App({ Component, pageProps }) {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="shortcut icon" href="/images/favicon.ico" />
+        <meta
+          name="description"
+          content="Ponete a tanto sobre la vacunación contra el COVID-19 en la Argentina."
+        />
+        <meta
+          name="keywords"
+          content="covid19, covid, vacunacion, argentina, virus"
+        />
+        <meta name="author" content="Manuel Cabral" />
         <link
           href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap"
           rel="stylesheet"
