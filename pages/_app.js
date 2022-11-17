@@ -35,7 +35,7 @@ export default function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Ponete a tanto sobre la vacunación contra el COVID-19 en la Argentina."
+          content="Averigua como fue la vacunación contra el COVID-19 en la Argentina."
         />
         <meta
           name="keywords"
