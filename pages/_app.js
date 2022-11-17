@@ -39,7 +39,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="keywords"
-          content="covid19, covid, vacunacion, argentina, virus"
+          content="covid19, covid, vacunacion, argentina, virus, covid2022, newcovid"
         />
         <meta name="author" content="Manuel Cabral" />
         <link
