@@ -14,6 +14,9 @@ export default function Home({
         <Description>
           Visualización y estadísticas sobre el COVID-19 en toda la Argentina.
         </Description>
+        <Description>
+          Algunos datos no se muestran ya que CODAVI ya no está en desarrollo.
+        </Description>
       </Container>
       <Subcontainer>
         <Content>
