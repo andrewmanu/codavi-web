@@ -12,7 +12,10 @@ export default function Home({
       <Container>
         <Title>CODAVI</Title>
         <Description>
-          Visualización y estadísticas sobre el COVID-19 en toda la Argentina. Obsotelo por el momento, hasta que se desarrolle una versión más nueva.
+          Visualización y estadísticas sobre el COVID-19 en toda la Argentina.
+        </Description>
+        <Description>
+          Algunos datos no se muestran ya que CODAVI ya no está en desarrollo.
         </Description>
       </Container>
       <Subcontainer>
